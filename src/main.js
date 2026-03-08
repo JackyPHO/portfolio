@@ -1,23 +1,30 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 
 document.querySelector('#app').innerHTML = `
-  <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="${viteLogo}" class="logo" alt="Vite logo" />
+  <div class="logo-container">
+    <a href="https://github.com/JackyPHO">
+      <img src="/github.png" class="logo"/>
+      <span class="logo-text">GitHub</span>
     </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-      <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
+  </div>
+  <div class="logo-container">
+    <a href="https://www.linkedin.com/in/jacky-ho-187046338/">
+      <img src="/LinkedIn.png" class="logo"/>
+      <span class="logo-text">LinkedIn</span>
     </a>
-    <h1>Hello Vite!</h1>
-    <div class="card">
-      <button id="counter" type="button"></button>
-    </div>
-    <p class="read-the-docs">
-      Click on the Vite logo to learn more
-    </p>
+  </div>
+  <div class="logo-container">
+    <a href="/Resume.pdf">
+      <img src="/note.png" class="logo"/>
+      <span class="logo-text">Resume</span>
+    </a>
+  </div>
+  <div class="logo-container">
+    <a href="mailto:jackyphuho2003@gmail.com">
+      <img src="/mail.png" class="logo"/>
+      <span class="logo-text">Email</span>
+    </a>
   </div>
 `
 
