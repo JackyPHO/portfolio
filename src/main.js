@@ -1,11 +1,10 @@
 import './style.css'
-import { setupCounter } from './counter.js'
 
-document.querySelector('#app').innerHTML = `
+document.querySelector('#logo-grid').innerHTML = `
   <div class="logo-container">
     <a href="https://github.com/JackyPHO">
       <img src="/github.png" class="logo"/>
-      <span class="logo-text">GitHub</span>
+      <span class="logo-text">Github</span>
     </a>
   </div>
   <div class="logo-container">
@@ -27,5 +26,3 @@ document.querySelector('#app').innerHTML = `
     </a>
   </div>
 `
-
-setupCounter(document.querySelector('#counter'))
